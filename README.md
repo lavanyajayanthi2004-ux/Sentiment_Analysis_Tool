@@ -1,4 +1,4 @@
-# 📊 Sentiment Analysis Dashboard
+# Sentiment Analysis Dashboard
 
 This project is a **Streamlit-based Sentiment Analysis application** that classifies text sentiment  
 (**Positive / Negative / Neutral**) using the **Groq LLM API**.
@@ -42,8 +42,11 @@ The application supports multiple file formats and processes each file independe
 ## Project Structure
 .
 ├── streamlit_sentiment.py
+
 ├── requirements.txt
+
 ├── README.md
+
 └── .env (not pushed to GitHub)
 
 
