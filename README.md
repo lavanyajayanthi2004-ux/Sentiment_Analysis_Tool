@@ -25,6 +25,21 @@ The application supports multiple file formats and processes each file independe
 
 ---
 
+## 📸 Screenshots
+
+### 🔹 File Upload Interface
+![File Upload](Screenshots/upload.png)
+
+### 🔹 Sentiment Analysis Results and Sentiment Count Summary
+![Sentiment Table](Screenshots/sentiment_and_count_txt_file.png)
+![Sentiment Table](Screenshots/sentiment_and_count_csv_file.png)
+![Sentiment Table](Screenshots/sentiment_and_count_excel_file.png)
+
+
+
+
+
+
 ## How It Works
 
 1. Users upload one or more files
