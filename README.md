@@ -30,11 +30,14 @@ The application supports multiple file formats and processes each file independe
 ### 🔹 File Upload Interface
 ![File Upload](Screenshots/upload.png)
 
-### 🔹 Sentiment Analysis Results and Sentiment Count Summary
-![Sentiment Table](Screenshots/sentiment_and_count_txt_file.png)
-![Sentiment Table](Screenshots/sentiment_and_count_csv_file.png)
-![Sentiment Table](Screenshots/sentiment_and_count_excel_file.png)
+### 🔹 Sentiment Analysis – CSV File
+![CSV Output](Screenshots/sentiment_and_count_csv_file.png)
 
+### 🔹 Sentiment Analysis – Excel File
+![Excel Output](Screenshots/sentiment_and_count_excel_file.png)
+
+### 🔹 Sentiment Analysis – TXT File
+![TXT Output](Screenshots/sentiment_and_count_txt_file.png)
 
 
 
