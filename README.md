@@ -41,6 +41,7 @@ The application supports multiple file formats and processes each file independe
 
 ## Project Structure
 .
+
 ├── streamlit_sentiment.py
 
 ├── requirements.txt
