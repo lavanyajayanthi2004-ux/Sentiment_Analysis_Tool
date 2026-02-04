@@ -1,56 +1,81 @@
-Sentiment Analysis Dashboard (GUVI Project)
+# Sentiment Analysis Dashboard
 
-This project was developed during the **GUVI training program**.  
-It is a **Streamlit-based Sentiment Analysis application** that classifies text sentiment
-(Positive / Negative / Neutral) using the **Groq LLM API**.
+This project is a **Streamlit-based Sentiment Analysis application** that classifies text sentiment  
+(**Positive / Negative / Neutral**) using the **Groq LLM API**.
 
+The application supports multiple file formats and processes each file independently to provide clear and structured sentiment insights.
 
+---
 
- Features
+## Features
 
 - Upload and analyze **multiple files**
-- Supports file formats:
+- Supported file formats:
   - `.txt`
   - `.json`
   - `.csv`
   - `.xlsx`
-- Handles:
+- Intelligent handling of:
   - Plain text files
-  - JSON-like text inside `.txt`
-- Per-file sentiment analysis
-- Batch (chunked) processing to avoid API token limits
-- Color-coded sentiment output
+  - JSON-like content inside `.txt` files
+- **Per-file sentiment analysis**
+- Batch (chunked) processing to handle API token limits
+- Color-coded sentiment results
 - Sentiment count summary for each file
 
 ---
 
-How It Works
+## 📸 Screenshots
 
-1. User uploads one or more files
+### 🔹 File Upload Interface
+![File Upload](Screenshots/upload.png)
+
+### 🔹 Sentiment Analysis – CSV File
+![CSV Output](Screenshots/sentiment_and_count_csv_file.png)
+
+### 🔹 Sentiment Analysis – Excel File
+![Excel Output](Screenshots/sentiment_and_count_excel_file.png)
+
+### 🔹 Sentiment Analysis – TXT File
+![TXT Output](Screenshots/sentiment_and_count_txt_file.png)
+
+
+
+
+
+## How It Works
+
+1. Users upload one or more files
 2. Each file is processed independently
-3. Text is converted into structured `{id, text}` records
-4. Data is sent to Groq LLM in chunks
+3. Text data is converted into structured `{id, text}` records
+4. Data is sent to the Groq LLM in manageable chunks
 5. Sentiment is classified as:
    - `positive`
    - `negative`
    - `neutral`
-6. Results are displayed in a table with sentiment counts
+6. Results are displayed in a table along with sentiment counts
 
 ---
 
- Project Structure
+## Project Structure
+
 ├── streamlit_sentiment.py
+
 ├── requirements.txt
+
 ├── README.md
+
 └── .env (not pushed to GitHub)
 
+
 ---
 
-Environment Setup
+## Environment Setup
 
-Create a `.env` file in the project root:
+Create a `.env` file in the project root and add your Groq API key:
 
 ```env
 GROQ_API_KEY=your_api_key_here
+
 
 
